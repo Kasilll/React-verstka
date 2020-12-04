@@ -1,12 +1,13 @@
 $colWhite : white;
 $colBebebe :#bebebe;
 $fontPTSanse:"PT Sans";
+$colF1f1:#f1f1f1;
 
 .sitebar {
         height: 100px;
         display: flex;
         align-items: center;
-        border-bottom: 1px solid #fff;  
+        border-bottom: 1px solid $colWhite;  
         margin-left: 3%;
         margin-right: 3%;
         @media screen and (max-width : 768px) {
@@ -32,7 +33,7 @@ $fontPTSanse:"PT Sans";
                     right: 4%;
                     a {
                         text-decoration: none;
-                        color:#f1f1f1;
+                        color:$colF1f1;
                         font-size:24px;
                         line-height: 1.2;
                         text-align: left;
@@ -40,7 +41,7 @@ $fontPTSanse:"PT Sans";
                     }
                 }
                 .color-bebebe {
-                    color:#bebebe;
+                    color:$colBebebe;
                     font-family: "Nexa Light";
                     color: rgb(241, 241, 241);
                     line-height: 1.2;
