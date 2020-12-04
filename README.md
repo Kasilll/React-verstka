@@ -1,3 +1,3 @@
 Тестовое задание для Blitz_Studio
 
-demo 
+demo : https://kind-turing-fecc3f.netlify.app
