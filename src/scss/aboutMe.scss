@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+$colGray : #c5c5c5;
+$fontOpenSans: "Open Sans";
+
+.aboutMe {
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width : 768px) {
+        height: 1490px;
+        width: 100%;
+    }
+
+    @media screen and (max-width : 470px) {
+        height: 100%;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        margin-top:77px;
+        @media screen and (max-width : 768px) {
+            margin-top:0px;
+        }  
+    }
+
+    .keep-scrolling {
+        margin:0 auto;
+        margin-top:80px;
+
+        @media screen and (max-width : 470px) {
+            display: none;
+        }
+
+        img {
+            position: absolute;
+            left: 50%;
+            transform:translateX(-50%);
+            color: $colGray;
+            cursor:pointer;
+        }
+
+        p {
+            font-size: 18px;
+            font-family: $fontOpenSans;
+            color: #dcdcdc;
+            text-transform: uppercase;
+            line-height: 1.2;  
+            font-weight: 500;
+        }
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        width:78%;
+
+        @media screen and (max-width : 768px) {
+            flex-direction: column;
+            width: 100%;
+        }
+
+        @media screen and (max-width : 470px) {
+            width: 100%;
+        }
+
+        .imgJasonWood {
+           width: 50%;
+           margin-right: 55px;
+
+            @media screen and (max-width : 768px) {
+                width: 100%;
+            }
+
+            @media screen and (max-width : 470px) {
+               height: 700px;
+            }
+
+            .jasonWood {
+                width: 100%;
+                height: 100%;
+            }
+        } 
+        .row {
+            display: flex;
+            flex-direction: column;
+            font-family: $fontOpenSans;
+            width: 50%;
+            margin-left: 55px;
+
+            @media screen and (max-width : 768px) {
+                width:92%;
+                margin-left: 50px;    
+            }
+            
+            @media screen and (max-width : 470px) {
+               margin:0 auto;
+               line-height: 2.8;
+               width: 72%;
+            }
+
+            .row1 {
+                font-size: 3vmax;
+
+                @media screen and (max-width : 768px) {
+                    font-size: 60px;
+                }
+
+                @media screen and (max-width : 470px) {
+                    font-size: 30px;
+                }
+            }
+
+            .row2 {
+                font-size: 1.5vmax;
+                line-height: 1.4;
+
+                @media screen and (max-width : 768px) {
+                    font-size: 24px;
+                    line-height: 2.179;
+                }
+
+                @media screen and (max-width : 470px) {
+                    font-size: 18px;
+                }                
+            }
+
+            .row3 {
+                font-size: 1.5vmax;
+                line-height: 1.4;
+
+                @media screen and (max-width : 768px) {
+                    font-size: 24px;
+                    line-height: 2.179;
+                }
+
+                @media screen and (max-width : 470px) {
+                    display: none;
+                }    
+            }
+
+            .row4 { 
+                font-size: 2.2vmax;
+
+                @media screen and (max-width : 768px) {
+                    font-size: 36px;
+                }
+
+                @media screen and (max-width : 470px) {
+                    font-size: 18px;
+                }
+            }  
+        }
+    }    
+}
+
+
+

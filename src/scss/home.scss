@@ -1,0 +1,52 @@
+$colF1f1:#f1f1f1;
+
+.home {
+    background-image:url('../img/BackgroundHome.png');
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center center;
+
+    @media screen and (max-width : 768px) {
+        height: 911px;
+    }
+
+    @media screen and (max-width : 470px) {
+        width: 100%;
+        height: 270px;
+    }
+    
+    .scroll-down {
+        font-size:20px;
+        margin:0 auto;
+        margin-top:855px;
+        color:#f1f1f1;
+        font-family: "Open Sance";
+        @media screen and (max-width : 768px) {
+            display: none;
+        } 
+    }
+
+    .DoubleArrow {
+        height: 34px;
+        width: 32px;
+        margin:0 auto;
+        margin-top:22px;
+        cursor: pointer;
+        @media screen and (max-width : 768px) {
+            display: none;
+        }
+    }
+
+    .MENU {
+        position: absolute;
+        top:42px;
+        left: 42px;
+
+        @media screen and (min-width : 470px) {
+            display: none;
+        }
+    } 
+}
+

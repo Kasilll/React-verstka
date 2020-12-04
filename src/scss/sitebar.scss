@@ -1,0 +1,64 @@
+$colWhite : white;
+$colBebebe :#bebebe;
+$fontPTSanse:"PT Sans";
+
+.sitebar {
+        height: 100px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #fff;  
+        margin-left: 3%;
+        margin-right: 3%;
+        @media screen and (max-width : 768px) {
+            margin-left: 65px;
+            margin-right: 65px;  
+        }
+        @media screen and (max-width : 470px) {
+            display: none;
+        }
+        .text {
+            display: flex;
+            margin:0 auto;
+           
+            ul {
+                display: flex;
+                li {
+                    list-style-type: none;
+                    padding: 0 20px;
+                    text-transform: capitalize;
+                    font-size: 20px;
+                    font-family: $fontPTSanse;
+                    position: relative;
+                    right: 4%;
+                    a {
+                        text-decoration: none;
+                        color:#f1f1f1;
+                        font-size:24px;
+                        line-height: 1.2;
+                        text-align: left;
+                        font-size: $fontPTSanse;
+                    }
+                }
+                .color-bebebe {
+                    color:#bebebe;
+                    font-family: "Nexa Light";
+                    color: rgb(241, 241, 241);
+                    line-height: 1.2;
+                    font-size: 24px;
+                }
+            }
+        }      
+}
+.aboutMe__menu {
+    border-bottom:1px solid $colBebebe;
+    @media screen and (max-width : 768px) {
+        margin:0;
+    }
+}
+.home__menu {
+    border-bottom:1px solid $colWhite;
+}
+
+
+
+
